@@ -1,7 +1,7 @@
 import React from 'react';
 
-function YearStats() {
-  const { year } = this.props;
+function YearStats(props) {
+  const { year } = props;
 
   return (
     <div className={`${year}-yearly-stats-component`}>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import YearlyBanner from './YearlyBanner';
-import YearStats from 'YearStats';
+import YearStats from './YearStats';
 
 function YearlyInfo() {
   const [bannerView, setBannerView] = useState('year-2020');
