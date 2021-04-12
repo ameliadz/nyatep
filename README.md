@@ -5,6 +5,7 @@
 - i moved the client folder up to the top level and renamed it NYATEP - that's where the project lives, after all. no discernible sense in nesting it.
 - if we want to build out and really utilize the css variables sitewide, i've pulled them into a separate ```variables.css``` file.
 - i also did a slight renaming of "deco-text-color" simply because my preferred practice is to start names with what they are and finish with what makes them different. i.e., text-color & text-color-accent vs text-color and accent-text-color. i don't think this makes a difference, but this is the direction that makes sense to me.
+- i (ostensibly) streamlined the yearly info section, unless there was an unknown-to-me reason for each year to have its own separate component file.
 
 
 ## Getting Started with Create React App
